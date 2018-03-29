@@ -177,6 +177,18 @@ header.masthead {
   background-size: cover;
 }
 
+header.histhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/histhead.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -231,7 +243,7 @@ header.masthead p {
   display: block;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align:  center;
   opacity: 0;
   color: #fff;
   background: rgba(240, 95, 64, 0.9);
